@@ -1,0 +1,44 @@
+.userList-ctr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.user-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 10px;
+  min-width: 200px !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 25%;
+}
+.user-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.list-body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.user-name {
+  font-family: 'Roboto-Bold';
+  font-size: 14px;
+}
+.user-city {
+  font-family: 'Roboto-Light';
+  font-size: 14px;
+}
+.header-ctr {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 5px 0;
+}
+.content-ctr {
+  display: flex;
+  font-size: 12px;
+  font-family: 'Roboto-Thin';
+  justify-content: space-between;
+  margin: 5px 0 10px 0;
+}
+.view {
+  cursor: pointer;
+  font-size: 16px;
+}
