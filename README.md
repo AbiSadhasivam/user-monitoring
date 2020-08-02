@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # create-react-app React Project with Node Express Backend
 
 > Example on using create-react-app with a Node Express Backend
@@ -53,3 +54,7 @@ If you would like to support my work and the time I put in making tutorials, you
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/esausilva)
 
 -Esau
+=======
+# user-monitoring
+A user interface that allows a user to view a list of hardcoded users from a mock API server.
+>>>>>>> aadcb230e0f7a9e3313987217402a21293174123
